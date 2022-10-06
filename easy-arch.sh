@@ -394,6 +394,9 @@ read -p "Press enter to continue"
 # Checking the microcode to install.
 microcode_detector
 
+# Checking the microcode to install.
+microcode_detector
+
 # Pacstrap (setting up a base sytem onto the new root).
 info_print "Installing the base system (it may take a while)."
 pacstrap -K /mnt base "$kernel" "$microcode" linux-firmware "$kernel"-headers btrfs-progs grub grub-btrfs rsync efibootmgr snapper reflector snap-pac zram-generator sudo micro os-prober xorg-server xorg-apps git base-devel plasma-meta kde-utilities kde-system dolphin-plugins kde-graphics neofetch zsh man-db man-pages texinfo
